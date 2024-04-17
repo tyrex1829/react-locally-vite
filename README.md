@@ -1,3 +1,7 @@
+# Description
+
+First time working with react locally using vite.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
