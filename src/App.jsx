@@ -1,10 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Chicken from './Chicken';
 import './App.css'
 
 function App() {
-  
+  return (
+    <div>
+      <Chicken />
+      <Chicken />
+      <Chicken />
+    </div>
+  );
 }
 
 export default App
