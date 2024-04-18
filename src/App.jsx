@@ -1,6 +1,7 @@
 import Chicken from './Chicken';
 import Greeter from './Greeter';
 import Die from './Die';
+import ListPicker from './ListPicker';
 import './App.css'
 
 function App() {
@@ -10,13 +11,16 @@ function App() {
       <Chicken />
       <Chicken /> */}
 
-      <Greeter person="Bill" from="Dev" />
+      {/* <Greeter person="Bill" from="Dev" />
       <Greeter />
-      <Greeter person="Tyrex" from="Core" />
+      <Greeter person="Tyrex" from="Core" /> */}
 
-      <Die numSides={20} />
+      {/* <Die numSides={20} />
       <Die />
-      <Die numSides={10} />
+      <Die numSides={10} /> */}
+
+      <ListPicker values={[1, 2, 3]} />
+      <ListPicker values={["a", "b", "c"]} />
     </div>
   );
 }
