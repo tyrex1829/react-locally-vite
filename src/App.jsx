@@ -10,12 +10,12 @@ function App() {
       <Chicken />
       <Chicken /> */}
 
-      {/* <Greeter person="Bill" from="Dev" />
-      <Greeter person="Saksham" from="Dsa" />
-      <Greeter person="Tyrex" from="Core" /> */}
+      <Greeter person="Bill" from="Dev" />
+      <Greeter />
+      <Greeter person="Tyrex" from="Core" />
 
       <Die numSides={20} />
-      <Die numSides={6} />
+      <Die />
       <Die numSides={10} />
     </div>
   );
