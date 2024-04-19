@@ -4,7 +4,8 @@ export default function DoubleDice() {
     
     return (
         <div>
-            <h1>{num1 === num2 ? "You Win!!" : "You Lose:("}</h1>
+            <h1>Double Dice</h1>
+            {num1 === num2 ? <h3>You Win!!</h3> : null}
             <p>Num1: {num1}</p>
             <p>Num2: {num2}</p>
         </div>
