@@ -10,11 +10,11 @@ import ShoppingList from './ShoppingList';
 import './App.css'
 
 const data = [
-  { item:"bread", quantity: 2, completed: false },
-  { item:"milk", quantity: 1, completed: true },
-  { item:"chicken breasts", quantity: 4, completed: false },
-  { item:"carrots", quantity: 6, completed: true }
-]
+  { id: 1, item:"bread", quantity: 2, completed: false },
+  { id: 2, item:"milk", quantity: 1, completed: true },
+  { id: 3, item:"chicken breasts", quantity: 4, completed: false },
+  { id: 4, item:"carrots", quantity: 6, completed: true }
+];
 
 function App() {
   return (
