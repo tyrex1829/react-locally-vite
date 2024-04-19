@@ -6,11 +6,22 @@ import DoubleDice from './DoubleDice';
 import Heading from './Heading';
 import ColorList from './ColorList';
 import Slots from './Slots';
+import ShoppingList from './ShoppingList';
 import './App.css'
+
+const data = [
+  { item:"bread", quantity: 2, completed: false },
+  { item:"milk", quantity: 1, completed: true },
+  { item:"chicken breasts", quantity: 4, completed: false },
+  { item:"carrots", quantity: 6, completed: true }
+]
 
 function App() {
   return (
     <div>
+
+      <ShoppingList items={ data } />
+
       {/* <Chicken />
       <Chicken />
       <Chicken /> */}
@@ -35,8 +46,8 @@ function App() {
 
       {/* <ColorList colors={["red", "pink", "purple", "teal"]} /> */}
 
-      <Slots val1="🍎" val2="🍎" val3="🍎" />
-      <Slots val1="🍎" val2="🍌" val3="🍎" />
+      {/* <Slots val1="🍎" val2="🍎" val3="🍎" />
+      <Slots val1="🍎" val2="🍌" val3="🍎" /> */}
 
     </div>
   );
