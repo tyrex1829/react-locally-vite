@@ -32,9 +32,13 @@ function App() {
   return (
     <div>
 
-      <Form />
+      <Clicker message="HI!!!!" buttonText="Click Me" />
 
-      <Clicker />
+      <Clicker message="Please Stop Clicking Me!" buttonText="do not click" />
+
+      {/* <Form /> */}
+
+      {/* <Clicker /> */}
 
       {/* <PropertyList items={ properties } /> */}
 
