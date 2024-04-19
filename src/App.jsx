@@ -5,6 +5,7 @@ import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
 import Heading from './Heading';
 import ColorList from './ColorList';
+import Slots from './Slots';
 import './App.css'
 
 function App() {
@@ -32,7 +33,10 @@ function App() {
       {/* <Heading color="magenta" text="welcome" fontSize="20px" />
       <Heading color="teal" text="Hey, there" fontSize="48px" /> */}
 
-      <ColorList colors={["red", "pink", "purple", "teal"]} />
+      {/* <ColorList colors={["red", "pink", "purple", "teal"]} /> */}
+
+      <Slots val1="🍎" val2="🍎" val3="🍎" />
+      <Slots val1="🍎" val2="🍌" val3="🍎" />
 
     </div>
   );
