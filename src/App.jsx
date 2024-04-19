@@ -9,6 +9,7 @@ import Slots from './Slots';
 import ShoppingList from './ShoppingList';
 import './App.css'
 import PropertyList from './PropertyList';
+import Clicker from './Clicker';
 
 const data = [
   { id: 1, item:"bread", quantity: 2, completed: false },
@@ -30,9 +31,11 @@ function App() {
   return (
     <div>
 
+      <Clicker />
+
       {/* <PropertyList items={ properties } /> */}
 
-      <ShoppingList items={ data } />
+      {/* <ShoppingList items={ data } /> */}
 
       {/* <Chicken />
       <Chicken />
