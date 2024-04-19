@@ -10,12 +10,12 @@ import ShoppingList from './ShoppingList';
 import './App.css'
 import PropertyList from './PropertyList';
 
-// const data = [
-//   { id: 1, item:"bread", quantity: 2, completed: false },
-//   { id: 2, item:"milk", quantity: 1, completed: true },
-//   { id: 3, item:"chicken breasts", quantity: 4, completed: false },
-//   { id: 4, item:"carrots", quantity: 6, completed: true }
-// ];
+const data = [
+  { id: 1, item:"bread", quantity: 2, completed: false },
+  { id: 2, item:"milk", quantity: 1, completed: true },
+  { id: 3, item:"chicken breasts", quantity: 4, completed: false },
+  { id: 4, item:"carrots", quantity: 6, completed: true }
+];
 
 const properties = [
   { id: 129031, name: "Desert Yurt", rating: 4.9, price: 150 },
@@ -30,9 +30,9 @@ function App() {
   return (
     <div>
 
-      <PropertyList items={ properties } />
+      {/* <PropertyList items={ properties } /> */}
 
-      {/* <ShoppingList items={ data } /> */}
+      <ShoppingList items={ data } />
 
       {/* <Chicken />
       <Chicken />
