@@ -4,6 +4,7 @@ import Die from './Die';
 import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
 import Heading from './Heading';
+import ColorList from './ColorList';
 import './App.css'
 
 function App() {
@@ -28,8 +29,11 @@ function App() {
       <DoubleDice />
       <DoubleDice /> */}
 
-      <Heading color="magenta" text="welcome" fontSize="20px" />
-      <Heading color="teal" text="Hey, there" fontSize="48px" />
+      {/* <Heading color="magenta" text="welcome" fontSize="20px" />
+      <Heading color="teal" text="Hey, there" fontSize="48px" /> */}
+
+      <ColorList colors={["red", "pink", "purple", "teal"]} />
+
     </div>
   );
 }
