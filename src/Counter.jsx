@@ -1,10 +1,12 @@
+import { useState } from 'react';
+
 function Counter () {
-    let num = 0;
+    let [count, setCount] = useState(0);
     return (
         <div>
-            <p>count is {num}</p>
+            <p>count is: {count}</p>
             <button onClick={() => {
-                num += 1;
+                setCount(count + 1)
             }}>Increment</button>
         </div>
     )
