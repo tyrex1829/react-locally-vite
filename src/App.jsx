@@ -11,6 +11,7 @@ import './App.css'
 import PropertyList from './PropertyList';
 import Clicker from './Clicker';
 import Form from './Form';
+import Counter from './Counter';
 
 const data = [
   { id: 1, item:"bread", quantity: 2, completed: false },
@@ -32,9 +33,12 @@ function App() {
   return (
     <div>
 
-      <Clicker message="HI!!!!" buttonText="Click Me" />
+      <Counter />
 
-      <Clicker message="Please Stop Clicking Me!" buttonText="do not click" />
+
+      {/* <Clicker message="HI!!!!" buttonText="Click Me" />
+
+      <Clicker message="Please Stop Clicking Me!" buttonText="do not click" /> */}
 
       {/* <Form /> */}
 
